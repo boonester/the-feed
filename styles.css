@@ -1,5 +1,5 @@
 @font-face{
-    font-family: LEDLIGHT;
+    font-family: ledlight;
     src: url(fonts/LEDLIGHT.otf);
     
 }
@@ -7,23 +7,35 @@
     font-family: bjork;
     src: url(fonts/hypik.otf)
 }
+@font-face {
+    font-family: extrablur;
+    src: url(fonts/ExtraBlur.ttf)
+}
 
 h1{
-    text-align: center;
-    font-family: fantasy;
-    font-weight:normal;
+    text-align: left;
+    font-family: ledlight;
+    font-size: 300%;
+    font-weight: normal;
 
 }
-p{
-    font-family: serif ;
-    text-align: left;
-   margin: 20px;
-}
 h2{
+    font-family: extrablur;
+    text-align: left;
+    font-size: 100%;
+    font-weight:normal;
+}
+p{
+    font-family: monospace;
     text-align: center;
+    text-size-adjust: 150%;
 
 }
 .images{
     display: inline;
     width: 50%;
+}
+a{
+    color: black;
+
 }
