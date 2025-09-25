@@ -31,11 +31,59 @@ p{
     text-size-adjust: 150%;
 
 }
-.images{
-    display: inline;
-    width: 50%;
+img{
+   max-width: 90%;
+   height: auto;
+   border-radius: 8px;
+   border: 2px solid #000;
 }
 a{
     color: black;
+    font-family: monospace;
+    font-size: 150%;
 
+}
+a:hover{
+    color: black;
+    font-family: ledlight;
+    font-size: 105%;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 150%;
+}
+
+.bar{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: gray;
+}
+.feed{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 1px;
+    column-gap: 1px;
+    
+}
+.feedtext{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: ledlight;
+    color: #000;
+    font-size: 300%;
+    margin: 20px;
+}
+.watchlist{
+    color: black;
+    font-family: ledlight;
+    font-size: 105%;
+}
+.watchlisttext{
+    color: #000;
+    margin-left: 50px;
+    margin-top: 15px;
 }
