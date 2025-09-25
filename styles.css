@@ -28,7 +28,8 @@ h2{
 p{
     font-family: monospace;
     text-align: center;
-    text-size-adjust: 150%;
+    text-size-adjust: 500%;
+    font-size: 200%;
 
 }
 img{
