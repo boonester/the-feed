@@ -104,3 +104,8 @@ a:visited{
     padding: 2px;
     font-size: 150%;
 }
+.gif{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
